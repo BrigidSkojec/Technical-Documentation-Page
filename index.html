@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asar&family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h1>CatOS Documentation</h1>
+      </header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Installing_a_CatOS_Unit_in_Your_Home">Installing a CatOS Unit in Your Home</a>
+      <a class="nav-link" href="#Initial_Setup_and_First_Boot_Behaviors">Initial Setup and First Boot Behaviors</a>
+      <a class="nav-link" href="#Sleep_Mode_Configuration">Sleep Mode Configuration</a>
+      <a class="nav-link" href="#Feeding_Schedule_Recommendations">Feeding Schedule Recommendations</a>
+      <a class="nav-link" href="#Common_CatOS_Features_&_What_They_Do">Common CatOS Features & What They Do</a>
+      <a class="nav-link" href="#Litter_Box_Maintenance_Logs">Litter Box Maintenance Logs</a>
+      <a class="nav-link" href="#Error_Handling_&_Warning_Signals">Error Handling & Warning Signals</a>
+      <a class="nav-link" href="#CatOS_Communication_Dictionary">CatOS Communication Dictionary</a>
+      <a class="nav-link" href="#Training_Subroutines_and_Reward_Loops">Training Subroutines and Reward Loops</a>
+      <a class="nav-link" href="#Debunking_Common_Myths_About_CatOS">Debunking Common Myths About CatOS</a>
+      <a class="nav-link" href="#Multi-Cat_Setup_&_Social_Integration">Multi-Cat Setup & Social Integration</a>
+      <a class="nav-link" href="#Enrichment_Plugins_for_Optimal_Operation">Enrichment Plugins for Optimal Operation</a>
+      <a class="nav-link" href="#Backup_and_Emergency_Procedures">Backup and Emergency Procedures</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+    <header>
+      <h1>Introduction</h1>
+    </header>
+     <p>Cats operate on a logic system humans do not fully understand, but through reverse-engineering behavior, we can develop best practices for cohabiting with them. CatOS runs on a sleep-first, food-second model, with a high tolerance for chaos and spontaneous affection updates.</p>
+        
+      </section>
+      <section class="main-section" id="Installing_a_CatOS_Unit_in_Your_Home">
+        <header>
+          <h1>Installing a CatOS Unit in Your Home</h1> </header>
+        <p> Setting up an optimized onboarding space ensures smoother behavioral calibration and reduces early-stage errors such as hiding, yowling, or unauthorized sprinting. The recommended conditions for initial setup:</p>
+        <ol>
+          <li>Designated quiet onboarding space</li>
+          <li>One litter box per cat, plus one extra</li>
+          <li>Elevated structures for passive surveillance</li>
+          <li>Clutter-free zones for sprinting tests</li>
+          <li>Soft surfaces for nap compatibility</li>
+        </ol>
+      </section>
+      <section class="main-section" id="Initial_Setup_and_First_Boot_Behaviors">
+        <header>
+          <h1>Initial Setup and First Boot Behaviors</h1>
+        </header>
+        <p>When initiating a new cat, expect:</p>
+        <ul>
+          <li>Hiding in unreachable areas</li>
+          <li>Silent observation</li>
+          <li>Sudden bursts of energy ("zoomies")</li>
+          <li>Unprovoked swatting — treat as a calibration phase</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Sleep_Mode_Configuration">
+        <header>
+          <h1>Sleep Mode Configuration</h1>
+        </header>
+        <p>Here’s how CatOS enters sleep mode:</p>
+        <pre><code>cat.<span class="color-red">sleep</span>({
+ <span class="color-pink">preferredZones</span>: ["<span class="color-green">sunbeam", "laundryBasket", "humanLaptop</span>"],
+ <span class="color-pink">duration</span>: "<span class="color-green">varies</span>",
+ <span class="color-pink">autoWakeTriggers</span>: ["<span class="color-green">fridgeOpen", "plasticBag", "3am</span>"],
+});</code></pre>
+        <p>Sleep is the default system mode. Cats enter it unpredictably and exit it violently.</p>
+      </section>
+      <section class="main-section" id="Feeding_Schedule_Recommendations">
+        <header>
+          <h1>Feeding Schedule Recommendations</h1>
+        </header>
+        <p>You want to make sure your CatOS is getting the fuel it needs. Remember ach one can differ in its eating habits. Here are the following recommendations:</p>
+        <ol>
+          <li>Scheduled meals (2x/day) optimize trust</li>
+          <li>Wet food = VIP mode</li>
+          <li>Free feeding discouraged (leads to CatOS expansion)</li>
+          <li>Always include fresh water</li>
+          <li>Avoid human snacks — no grapes, onions, chocolate, or dramatic irony</li>
+        </ol>
+      </section>
+      <section class="main-section" id="Common_CatOS_Features_&_What_They_Do">
+        <header>
+          <h1>Common CatOS Features & What They Do</h1>
+        </header>
+        <ul>
+          <li>Purring: happiness or self-repair</li>
+          <li>Kneading: memory access from kitten version</li>
+          <li>Loafing: defense mode</li>
+          <li>Tail flicking: warning signal</li>
+          <li>Sitting on your book/laptop: dominance assertion</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Litter_Box_Maintenance_Logs">
+        <header>
+          <h1>Litter Box Maintenance Logs</h1>
+        </header>
+        <pre><code>litterBox.<span class="color-red">clean</span>({
+  <span class="color-pink">frequency</span>: "<span class="color-green">daily</span>",
+  <span class="color-pink">deodorizerEnabled</span>: <span class="color-green">true</span>,
+  <span class="color-pink">multiCatMode</span>: <span class="color-green">true</span>
+});</code></pre>
+        <p>Neglected litter boxes may trigger protests ranging from passive-aggressive stares to carpet-based data dumps.</p>
+      </section>
+      <section class="main-section" id="Error_Handling_&_Warning_Signals">
+        <header>
+          <h1>Error Handling & Warning Signals</h1>
+        </header>
+        <pre><code>cat.<span class="color-red">errorLog</span>({
+   <span class="color-pink">event</span>: "<span class="color-green">doorClosed</span>",
+   <span class="color-pink">response</span>: "<span class="color-green">mournfulWail</span>",
+   <span class="color-pink">duration</span>: "<span class="color-green">untilDoorReopens</span>"
+});</code></pre>
+        <p>Other triggers: missing food, ignored pets, unknown visitors, vacuum startup.</p>
+      </section>
+      <section class="main-section" id="CatOS_Communication_Dictionary">
+        <header>
+          <h1>CatOS Communication Dictionary</h1>
+        </header>
+        <p>Here is a quick list of what different sounds made by your CatOS could mean:</p>
+        <ul>
+          <li>Short meow: polite greeting</li>
+          <li>Long meow: demand</li>
+          <li>Chirp: hunting simulation</li>
+          <li>Growl: threat warning</li>
+          <li>Silent stare: existential audit</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Training_Subroutines_and_Reward_Loops">
+        <header>
+          <h1>Training Subroutines and Reward Loops</h1>
+        </header>
+        <pre><code>cat.<span class="color-red">train</span>("sit")) {
+  <span class="color-pink">reward</span>: "<span class="color-green">treat</span>",
+  <span class="color-pink">repetition</span>: <span class="color-green">6</span>,
+  <span class="color-pink">mood</span>: "<span class="color-green">willing</span>"
+}</code></pre>
+        <p>Training a cat is not guaranteed. They are more likely to train you. Positive reinforcement works best, but success depends on the cat’s current processor load (i.e., mood).</p>
+      </section>
+      <section class="main-section" id="Debunking_Common_Myths_About_CatOS">
+        <header>
+          <h1>Debunking Common Myths About CatOS</h1>
+        </header>
+        <ul>
+          <li>Cats are not antisocial — they are selectively social</li>
+          <li>Not all cats hate water — some will dive into the tub like weirdos</li>
+          <li>Cats can be trained, they just see no reason to comply</li>
+          <li>Cats do get attached to humans — you're just not the only one</li>
+          <li>Declawing is not maintenance — it’s system damage</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Multi-Cat_Setup_&_Social_Integration">
+        <header>
+          <h1>Multi-Cat Setup & Social Integration</h1>
+        </header>
+        <ul>
+          <li>Introduce cats gradually, using scent first</li>
+          <li>Provide separate litter boxes and bowls</li>
+          <li>Watch for staring contests (pre-fight data exchange)</li>
+          <li>Use treats to create positive association</li>
+          <li>Respect the alpha — but never say there is one</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Enrichment_Plugins_for_Optimal_Operation">
+        <header>
+          <h1>Enrichment Plugins for Optimal Operation</h1>
+        </header>
+        <ul>
+          <li>Puzzle feeders</li>
+          <li>Window perches</li>
+          <li>Laser pointer routines</li>
+          <li>Scheduled playtime</li>
+          <li>Cardboard box installations (high ROI)</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Backup_and_Emergency_Procedures">
+        <header>
+          <h1>Backup and Emergency Procedures</h1>
+        </header>
+        <pre><code>cat.<span class="color-red">safeMode</span>() {
+  <span class="color-pink">transportToVet</span>: <span class="color-green">true</span>,
+  <span class="color-pink">useCarrier</span>: "<span class="color-green">approved</span>",
+  <span class="color-pink">prepare</span>: "<span class="color-green">loudMeows + EscapeAttempts</span>",
+  <span class="color-pink">activateCuddleProtocol</span>: <span class="color-green">postCheckup</span>
+  }</code></pre>
+        <p>During emergencies, cats will activate every evasion subroutine. Proceed with empathy and a towel.</p>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>
+          <h1>Reference</h1>
+        </header>
+        <p>Majority of the information on this page was taken from ChatGPT</p>
+      </section>
+      <img src="https://snipboard.io/H3ArjZ.jpg" alt="A stylized black cat drawing with yellow eyes generated by ChatGPT">
+    </main>
+  </body>
+</html>
